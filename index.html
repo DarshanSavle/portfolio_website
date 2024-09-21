@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design | DS</title>
+    
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="newstyle.css">
+   <!--goggle Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--header design -->
+      <header class="header">
+        <a class="logo1">PORT<span>FOLIO</span></a>
+    
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about" >About </a>
+      <a href="#services" >Services</a>
+      <a href="#projects" >Projects</a>  
+      <a href="#internship" >Internship</a>  
+      <a href="#portfolio" >Portfolio</a>  
+      <a href="#contact" >Contact</a>
+    </nav>   
+    </header>
+
+
+    <!--home section design --> 
+
+    
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1 style="color: var(--main-color);">DARSHAN SAVLE</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>HTML | CSS | JS | BOOTSTRAP | API  <br>
+           C | C++ | DSA | PYTHON | DJANGO <br>  
+            MY-SQL | POSTGRE-SQL &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-facebook' ></i></a>
+          <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+          <a href="https://www.linkedin.com/in/darshan-savle/" target="_blank"><i class='bx bxl-linkedin' ></i>  </a>
+          <a href="https://github.com/DarshanSavle"><i class='bx bxl-github' ></i></a>
+        </div>
+        <a href="/portfolio/resume.pdf"  target="_blank" class="btn">Download CV</a>
+      </div>
+       
+      <div class="home-img">
+        <img src="./img/profileimg.png" alt=" profile pic" >
+      </div>
+     </section>
+   
+   
+  
+
+   <!--about section design
+   <section class="about" id="about">
+    <div class="about-img">
+      <img src="/profile-pic (1).png" alt="">
+      </div> 
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3><span class="span1" >
+          Frontend Developer&nbsp;&nbsp; |&nbsp;&nbsp; Web Developer &nbsp;&nbsp;| &nbsp; &nbsp;UI/UX Designer
+        </span></h3>
+        <p>Fresher 2024 Batch ,  <br>
+          | 🎓 Aspiring BCA Graduate | 💻 Eager Learner in the World of Tech | 🌟 Passionate About Building a Digital Future <br>
+          Hello! I'm Darshan Savle , a dedicated student currently pursuing a Third-Year of Bachelor's degree in Computer Applications (BCA) 
+          with a strong drive to make a mark in the field of technology. I am enthusiastic about the endless possibilities that the 
+          world of computers and software offers.  <br>
+          
+          🌐 Tech Enthusiast: My journey into the world of technology started with a fascination for coding and digital innovation. 
+          Through my BCA program, I've been acquiring essential skills in programming languages like C , C++ and Python, along with a
+           deep understanding of software development principles.  <br>
+          </p>
+
+          <p id="extrainfo" class="p1">
+            🌟Interest🌟 :-  <br> 
+            💻Web Development💻 :-  <br>
+            1️⃣ Front-End Technology - HTML , CSS , JAVASCRIPT (JS) , BOOTSTRAP (FRAMEWORK) . <br>
+            2️⃣ Back-End Technology - PHP , PYTHON . <br>
+            3️⃣ Data-Base - MySQL . <br>
+            4️⃣ UI / UX Design - Figma .
+            <br>
+            Feel free to reach out to me via LinkedIn messaging . 
+            Thank you for visiting my profile, and I look forward to connecting with you on this incredible journey towards a digital future!</p>
+         
+          <button id="btn" >Read More</button>
+      </div>
+ </li>
+          
+      </div>
+   </section>
+
+    --> 
+
+
+
+       <!--about section design -->
+   <section class="about" id="about">
+    <div class="about-img">
+      <img src="./img/profileimg.png" alt=" profile pic" >
+      </div> 
+
+      <div class="abt-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3><span class="span1" >
+          Python Developer&nbsp;&nbsp; |&nbsp;&nbsp; Web Developer &nbsp;&nbsp;| &nbsp; &nbsp;Software Developer
+        </span></h3>
+        <p>Fresher 2024 Batch ,  <br>
+        🎓 Aspiring BCA Graduate |
+         💻 Eager Learner in the World of Tech | 
+         🌟 Passionate About Building a Digital Future <br>
+            Hello! I'm Darshan Savle , a dedicated recent graduate from Bachelor's degree in Computer Applications (BCA) 
+            with a strong drive to make a mark in the field of technology. 
+            I am enthusiastic about the endless possibilities that the world of computers and software offers. 
+          </p>
+
+          <p  class="hidden-content">
+            🌐 Tech Enthusiast: My journey into the world of technology started with a fascination for coding and digital innovation. 
+            Through my BCA program, I've been acquiring essential skills in programming languages like C , C++ and Python, 
+            along with a deep understanding of software development principles. <br><br>
+
+            🌟Interest🌟 :- <br>
+            💻Web Development💻 :- <br>
+            1️⃣ Front-End Technology - HTML , CSS , JAVASCRIPT (JS) , BOOTSTRAP (FRAMEWORK) . <br>
+            2️⃣ Back-End Technology - PHP , PYTHON (DJANGO) . <br>
+            3️⃣ Data-Base - MySQL , Postgre-SQL . <br>
+            4️⃣ UI / UX Design - Figma .   <br><br>
+            
+            
+            
+            Feel free to reach out to me via LinkedIn messaging . Thank you for visiting my profile, and I look forward 
+            to connecting with you on this incredible journey towards a digital future!  </p>
+  
+          <button id="toggle-btn" >Read More</button>
+          
+      </div>
+   </section>
+      
+     <!--services section design --> 
+
+     <section class="services" id="services">
+          <h2 class="heading">Our <span>Services</span></h2>
+          
+          <div class="services-container">
+             <div class="services-box">
+              <i class='bx bx-code-alt' ></i>
+              <h3>Python Development</h3>
+              <p>Python offers Rapid application development.
+                It enables building scalable enterprise applications.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-box">
+                <i class='bx bxs-grid-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development services help create all types of web-based software and ensure great experience for web users. </p>
+                  <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                  <i class='bx bxs-shapes' ></i>
+                  <h3>Software Development</h3>
+                  <p>Software development services help plan, design, develop, integrate, test, manage and evolve software solutions. </p>
+                    <a href="#" class="btn">Read More</a>
+                  </div>
+          </div>
+     </section>
+
+      <!--projects section design  -->
+      
+      <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container" >
+        
+          <div class="project-item">
+            <img src="./img/Library (1).jpg" alt="Library Management System">
+            <div class="project-label"><a href="#"><i class='bx bx-link-external'></i></a><br>Library Management System</div>
+          </div>
+      
+          <div class="project-item">
+            <img src="./img/portfolio1.jpg" alt="Portfolio Websites ">
+            <div class="project-label"><a href="#"><i class='bx bx-link-external'></i></a><br>Portfolio Websites </div>
+          </div>
+      
+          <div class="project-item">
+            <img src="./img/University (1).jpg" alt="University Management System">
+            <div class="project-label"><a href="#"><i class='bx bx-link-external'></i></a><br>University Management System</div>
+          </div>
+      
+          <div class="project-item">
+            <img src="./img/ecomm (1).jpg" alt="E-Commerce Websites">
+            <div class="project-label"><a href="#"><i class='bx bx-link-external'></i></a><br>E-Commerce Websites</div>
+          </div>
+      
+          <div class="project-item">
+            <img src="./img/portfolio5.jpg" alt="Handwritten Digit Prediction - AI , ML">
+            <div class="project-label"><a href="#"><i class='bx bx-link-external'></i></a><br>Digit Prediction - AI , ML</div>
+          </div>
+      
+          <div class="project-item">
+            <img src="./img/college01(01)  (1).jpg" alt="College Websites">
+            <div class="project-label"><a href="#"><i class='bx bx-link-external'></i></a><br>College Websites</div>
+          </div>
+
+      </div>
+      </section>
+
+      
+   
+ 
+    
+      <!--Internship section design --> 
+
+      <section class="internship" id="internship">
+        <h2 class="heading">My <span>Internship</span></h2>
+        
+        <div class="internship-container">
+           <div class="internship-box" col-6>
+            
+            <h3><span>SOFTWARE DEVELOPER INTERN</span><br>HUMMINGBYTE TECHNOLOGIES PVT.LTD</h3>
+            <h1>DURATION :- 6 MONTH </h1>
+            <p>SKILLS :- HTML , CSS , BOOTSTRAP , JAVASCRIPT ,<br> PYTHON , DJANGO , API CALLING </p>
+              <a href="#" class="btn">Read More</a> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+              
+            </div>
+
+            <div class="internship-box">
+              
+              <h3><span>DATA ANALYST INTERN</span><br>
+              <h3>YBI FOUNDATION </h3>
+              <h1>DURATION :- 1 MONTH </h1>
+              <p>SKILLS :- Google Colab , Microsoft Excel , Python for Data Analytics , Microsoft Power BI , Tableau , SQL</p>
+                <a href="#" class="btn">Read More</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+              </div>
+
+            
+        </div>
+   </section>
+
+
+        <!-- END Internship section design --> 
+
+
+
+
+
+        <!-- Portfolio section design --> 
+
+        <section class="portfolio" id="portfolio">
+          <h2 class="heading">My <span>Portfolio</span></h2>
+          <div class="portfolio-container" >
+        
+                <div class="tab-container" style="margin-bottom: 2%;">
+                  <button class="tab-button active" onclick="openTab(event, 'skills')">Skills</button>
+                  <button class="tab-button" onclick="openTab(event, 'experience')">Certifications</button>
+                  <button class="tab-button" onclick="openTab(event, 'education')">Education</button>
+              </div>
+      
+              <div id="skills" class="tab-content" >
+                  <ul>
+      
+                      <li><span class="highlight" style="font-size: 1.8rem;"> ☛ &nbsp;&nbsp;  Front-End Skills </span>:- HTML , CSS , JAVASCRIPT , BOOTSTRAP. </li> 
+                       <li><span class="highlight" style="font-size: 1.8rem;" >☛ &nbsp;&nbsp;  Back-End Skills </span>:- Python (DJANGO) , PHP . </li> 
+                       <li><span class="highlight" style="font-size: 1.8rem;">☛ &nbsp;&nbsp;  Database </span>:- MySQL , Postgre-SQL </li> 
+                        <li><span class="highlight" style="font-size: 1.8rem;">☛ &nbsp;&nbsp;  Programming Skills  </span>:- C Programming , Python Programming , Data Structures And Algorithms (DSA) </li> 
+                        <li><span class="highlight" style="font-size: 1.8rem;">☛ &nbsp;&nbsp; Software & Tools  </span>:- MS-Word , MS- Excel , MS-Powerpoint , Visual Studio Code , Operating System .  </li>
+                        <li><span class="highlight" style="font-size: 1.8rem;">☛ &nbsp;&nbsp; Interpersonal & Soft Skills  </span> :- Adaptability , Versatility , Problem Solving , Analytical skills , Leadership , <br>
+                        Management , Teamwork , Communication , Positive Attitude , Learner .</li>
+                  </ul>
+              </div>
+      
+              <div id="experience" class="tab-content" style="display:none;">
+                  <ul>
+
+                    <li><span class="highlight" style="font-size: 1.8rem;">Career Essentials in Generative AI by Microsoft and LinkedIn </span> - Microsoft and LinkedIn Learning Platform. &nbsp; &nbsp; &nbsp; &nbsp;
+                      </li><br>
+                     
+                      <li><span class="highlight" style="font-size: 1.8rem;">Fundamentals of Web Technologies </span>- From TechSaksham by Edunet Foundation , Microsoft and SAP. &nbsp; &nbsp; &nbsp; &nbsp;
+                        </li><br>
+                     
+                      <li><span class="highlight" style="font-size: 1.8rem;">Fundamentals of AI And ML.  </span>- From TechSaksham by Edunet Foundation , Microsoft and SAP. &nbsp; &nbsp; &nbsp; &nbsp;
+                        </li><br>
+                      
+                      <li><span class="highlight" style="font-size: 1.8rem;">Getting Started with Enterprise Data Science</span>  -  IBM Skillbuid. &nbsp; &nbsp; &nbsp; &nbsp;
+                       </li><br>
+                    
+                  </ul>
+              </div>
+      
+              <div id="education" class="tab-content" style="display:none;">
+                  <ul>
+                      <li><span class="highlight" style="font-size: 1.8rem;">Bachelor’s of Computer Application (BCA) </span>– CGPA – 7.5 | 2021 –2024 <br>
+                        Sandip University , Nashik.
+                        </li>
+      
+                      <li><span class="highlight" style="font-size: 1.8rem;">12th (HSC)  Science </span>- 56% | 2020 <br>
+                        K.V.N.Naik College , Nashik.
+                      </li>
+      
+                      <li><span class="highlight" style="font-size: 1.8rem;">10th (SSC)</span> - 71% | 2018 <br>
+                        Sindhu Sagar Academy, Nashik.
+                        </li>
+                  </ul>
+              </div>
+      
+            </div>
+       </li>
+                
+            </div>
+         </section>
+
+
+       <!-- end portfolio section design --> 
+
+
+
+
+       <!--Contact section design --> 
+
+
+       <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+       
+      
+  
+        <form name="submit-to-google-sheet" >
+          <div Class="input-box">
+            <input type="text" placeholder="Full Name" class="item" id="full_name" name="full_name" required >
+            <input type="email" placeholder="Email Address" class="item" id="email" name="email" required>
+          </div>
+          <div Class="input-box">
+            <input type="number" placeholder="Mobile Number" class="item" id="mobile_number" name="mobile_number" required>
+            <input type="text" placeholder="Email Subject" class="item" id="subject" name="subject"  required >
+          </div>
+          <textarea id="textarea" cols="30" rows="10" placeholder="Your Message"  name="message"  required></textarea>
+          <input type="submit" value="Send Message" class="btn" >
+        </form>
+        
+          <span id="notification"></span>
+       </section>
+          
+
+       <!--footer design --> 
+ 
+       
+        
+     
+         <footer class="footer" >
+         <div class="footer-text" style="break-inside: avoid-column;"> 
+          <p>Copyright &copy; 2024 by Darshan Savle | All Rights Reserved. </p>
+        </div>
+  
+        <div class="footer-iconTop">
+          <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      
+        </div>
+       </footer>
+
+       
+      
+      
+      
+
+
+
+       <!--scroll reveal-->
+       <script src="https://unpkg.com/scrollreveal"></script>
+
+       <!--typed js-->
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--custom js-->
+    <script src="newjs.js"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwJEKdZ6gXS1d39NSMOLfkoxQ_5IE1zkQZQ9UIyZFZXPh-2IJNQYCmgat2qazUVQlZX/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const notification = document.getElementById("notification")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            notification.innerHTML = "✔️<br>Message sent successfully"
+            setTimeout(function(){
+              notification.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('❌<br>Error!', error.message))
+      })
+    </script>
+</body>
+</html> 
