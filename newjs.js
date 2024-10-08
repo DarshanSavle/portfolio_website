@@ -133,3 +133,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //--------------------------------------------------------------------------------//
+
+
+
+
+// Disable right-click on the entire page
+document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+    }
+});
